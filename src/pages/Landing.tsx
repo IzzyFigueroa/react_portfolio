@@ -1,5 +1,5 @@
-import Hero from "../components/hero";
-import Work from "../components/work";
+import Hero from "../components/Hero";
+import Work from "../components/Work";
 
 function Landing() {
     return (

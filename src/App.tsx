@@ -2,7 +2,8 @@ import { Routes, Route } from 'react-router-dom'
 
 import Header from "./components/Header";
 import ContactForm from "./pages/ContactForm";
-import Landing from "./pages/landing";
+import AboutMe from "./pages/AboutMe"
+import Landing from "./pages/Landing";
 import Footer from "./components/Footer";
 
 
@@ -11,15 +12,16 @@ function App() {
     <>
       <Header />
 
-{/* We put routes in main becasue it will be wrapped in scss */}
-    <main>
-    <Routes>
+      {/* We put routes in main becasue it will be wrapped in scss */}
+      <main>
+        <Routes>
 
-<Route path="/" element={<Landing/>}/>
-<Route path="/contact" element={<ContactForm/>}/>
+          <Route path="/" element={<Landing />} />
+          <Route path="/contact" element={<ContactForm />} />
+          <Route path="/aboutme" element={<AboutMe />} />
 
-</Routes>
-    </main>
+        </Routes>
+      </main>
 
       <Footer />
 

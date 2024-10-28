@@ -1,4 +1,4 @@
-import { useState,useEffect } from "react";
+import { useState, useEffect } from "react";
 import axios from "axios";
 
 function Hero() {
@@ -15,24 +15,24 @@ function Hero() {
             headers: {
                 'X-Api-Key': apiKey
             }
-        }).then((res)=> {
+        }).then((res) => {
             setQuote(res.data[0].quote)
         })
     }, [])
     // you can only have one parent emelent in the return
-return (
-<section className="hero">
+    return (
+        <section className="hero">
 
-    <div className="hero-text">
-        <h4>Software Developer</h4>
-        <p>Code the world...</p>
-        <p className="text-center">{quote}</p>
-    
-    </div>
-    <div className="img"></div>
-   
-</section>
-)
+            <div className="hero-text">
+                <h4>Software Developer</h4>
+                <p>Code the world...</p>
+                <p className="text-center">{quote}</p>
+
+            </div>
+            <div className="img"></div>
+
+        </section>
+    )
 
 }
 

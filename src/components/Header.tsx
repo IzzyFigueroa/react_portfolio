@@ -7,7 +7,7 @@ function Header() {
       <header>
         {/* div.logo will give you a className already loaded in */}
         <div className="logo">
-        <img src="/images/barney.webp" alt="dino logo" />
+        {/* <img src="/images/barney.webp" alt="dino logo" /> */}
         <h3>Izzy Figueroa</h3>
         </div>
             
