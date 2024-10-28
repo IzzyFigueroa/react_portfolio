@@ -6,7 +6,7 @@ function Landing() {
 <>
 <Hero/>
 
-<Work/>
+{/* <Work/> */}
 </>
     )
 }

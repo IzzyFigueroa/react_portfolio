@@ -78,6 +78,7 @@ section.hero {
   background: #4E4966;
   margin-bottom: 20px;
   
+  
 
   div.hero-text {
       color: #fff;
@@ -105,11 +106,37 @@ section.hero {
   }
 }
 
+//Resume
+section h2 {
+    padding: 10px;
+    margin: 20px;
+}
+
+section p {
+    padding: 10px;
+    margin: 20px;
+    // margin-bottom: 20px;
+}
+
+.skills {
+    padding: 10px;
+    margin: 20px;
+}
+
+.resume-download-link {
+    cursor: pointer;
+      &:hover {
+          background: none;
+          color: #444;
+      }
+}
+
 //WORK SECTION
 main {
   // padding: 15px 0;
   color: #fff;
   flex: 1;
+  margin-top: 20px;
 
   h4 {
       margin-bottom: 15px;
@@ -192,7 +219,9 @@ footer {
   padding: 35px 5%;
   background: #929191;
   color: #615f5f;
+
 }
+
 
 
 @media (max-width: 750px) {
