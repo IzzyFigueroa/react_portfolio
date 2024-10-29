@@ -1,10 +1,11 @@
 import Hero from "../components/Hero";
-import Work from "../components/Work";
+import AboutMe from "./About";
+// import Work from "../components/Work";
 
 function Landing() {
     return (
 <>
-<Hero/>
+<AboutMe/>
 
 {/* <Work/> */}
 </>

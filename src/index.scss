@@ -73,6 +73,17 @@ header nav a:not(:last-child) {
 }
 
 // Hero Section
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* 100% of the viewport height */
+    width: 100vw; /* 100% of the viewport width */
+    background-color: #f0f0f0; /* Optional: Set a background color */
+  }
+
+
 section.hero {
   display: flex;
   background: #4E4966;
@@ -104,6 +115,11 @@ section.hero {
       min-width: 23%;
       justify-self: flex-end;
   }
+}
+
+//About Page
+.about-bio {
+    padding: 30px;
 }
 
 //Resume
@@ -167,6 +183,12 @@ main {
   }
 }
 
+.work-link {
+    display: flex;
+  gap: 15px;
+}
+
+
 // CONTACT SECTION
 form {
   display: flex;
@@ -224,12 +246,12 @@ footer {
 
 
 
-@media (max-width: 750px) {
+@media (max-width: 1000px) {
   section.hero {
       flex-direction: column;
       // padding: 15px;
       div.image {
-          min-height: 200px !important;
+          min-height: 250px !important;
           background-position: top;
           background-repeat: no-repeat;
            }
