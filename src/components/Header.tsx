@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Nav from "./Nav";
 
 
@@ -8,7 +9,9 @@ function Header() {
       {/* div.logo will give you a className already loaded in */}
       <div className="logo">
         {/* <img src="/images/barney.webp" alt="dino logo" /> */}
-        <h3>Izzy Figueroa</h3>
+        <Link to="/">
+          <h3>Izzy Figueroa</h3>
+        </Link>
       </div>
 
 
