@@ -1,5 +1,5 @@
-import { useState, useEffect } from "react";
-import axios from "axios";
+// import { useState, useEffect } from "react";
+// import axios from "axios";
 
 function Hero() {
     // const [quote, setQuote] = useState('Loading...')

@@ -2,14 +2,14 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { BsTwitterX } from 'react-icons/bs';
 
 function Footer() {
-const date = new Date();
+  const date = new Date();
 
-    return (
-        <footer>
-            
-            <p>Copyright &copy; {date.getFullYear()}</p>
+  return (
+    <footer>
 
-            <div className="footer-icons">
+      <p>Copyright &copy; {date.getFullYear()}</p>
+
+      <div className="footer-icons">
         <a href="https://github.com/IzzyFigueroa" target="_blank" rel="noopener noreferrer">
           <FaGithub size={30} />
         </a>
@@ -21,9 +21,9 @@ const date = new Date();
         </a>
       </div>
 
-            <p>Designed & Developed By Izzy Figueroa</p>
-        </footer>
-    )
+      <p>Designed & Developed By Izzy Figueroa</p>
+    </footer>
+  )
 }
 
 export default Footer;

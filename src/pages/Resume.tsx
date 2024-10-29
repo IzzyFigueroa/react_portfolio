@@ -13,7 +13,7 @@ function Resume() {
         <h2>Front-end Proficiencies</h2>
         <ul>
           <li>JavaScript</li>
-          <li>React</li>
+          <li>React</li>   
           <li>TypeScript</li>
           <li>Node.js</li>
           <li>CSS</li>

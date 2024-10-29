@@ -4,7 +4,7 @@ import Header from "./components/Header";
 import Resume from './pages/Resume';
 import Portfolio from './pages/Portfolio';
 import ContactForm from "./pages/ContactForm";
-import AboutMe from "./pages/AboutMe"
+
 import Landing from "./pages/Landing";
 import Footer from "./components/Footer";
 
@@ -13,7 +13,7 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <>
-      <Header />
+     {} <Header />
 
       {/* We put routes in main becasue it will be wrapped in scss */}
       <main>
@@ -21,7 +21,7 @@ function App() {
 
           <Route path="/" element={<Landing />} />
           <Route path="/contact" element={<ContactForm />} />
-          <Route path="/aboutme" element={<AboutMe />} />
+          
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/resume" element={<Resume />} />
 

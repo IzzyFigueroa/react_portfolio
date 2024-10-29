@@ -14,7 +14,7 @@
   ## Questions
  My Github username is https://github.com/izzyfigueroa
 
- Live Link: https://drive.google.com/file/d/140VG7CcEvqsqb2lJ84kWkM5wqdqCwK0e/view?usp=sharing
+ Live Link: https://izzyfigueroa.netlify.app/
   
  Please contact me at izzyfigueroa6@gmail.com
 
